@@ -21,6 +21,6 @@ This is function that takes as input the state and the year and provides as outp
 Needed packages for this function are: dplyr, maps, graphics. Furthermore, if there are not incidences for the specified combination of year/state number, a relevant message will pop-up.
 }
 \examples{
-fars_map_state(45,2013)
+\dontrun{fars_map_state(45,2013)}
 
 }

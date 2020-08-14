@@ -19,6 +19,6 @@ This is a function that, summarizes the number of rows included per month in the
 Again for the proper execution of this function, we need to verify that the dplyr package is installed and loaded and also that the source files are located in the folder that is currently set as working directory.
 }
 \examples{
-fars_summarize_years(c("2013","2014"))
+\dontrun{fars_summarize_years(c("2013","2014"))}
 
 }

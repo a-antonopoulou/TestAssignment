@@ -22,6 +22,6 @@ Please note that in this function uses the read_csv function from readr package 
 Additionally to above, you should have in mind that the files to be imported in R should be either placed in the working directory or the path to be included as part of the parameter (input) of the function.
 }
 \examples{
-fars_read("accident_2013.csv")
+\dontrun{fars_read("accident_2013.csv")}
 
 }

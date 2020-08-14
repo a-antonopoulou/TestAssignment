@@ -122,12 +122,16 @@ fars_map_state(45,2013)
 ```
 
 
-#### Package Installation
+##### Travis Badge
 
-Please use the following R code to install and load the package:
+<!-- badges: start -->
+[![Travis build status](https://travis-ci.com/a-antonopoulou/TestAssignment.svg?branch=master)](https://travis-ci.com/a-antonopoulou/TestAssignment)
+<!-- badges: end -->
 
-```{r}
-install.packages("TestAssignment")
-library(TestAssignment)
-```
 
+##### appveyor Badge
+
+ <!-- badges: start -->
+  [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/a-antonopoulou/TestAssignment?branch=master&svg=true)](https://ci.appveyor.com/project/a-antonopoulou/TestAssignment)
+  <!-- badges: end -->
+  

@@ -1,3 +1,8 @@
+
+
+utils::globalVariables(c("STATE", "MONTH", "year", "n"))
+setwd("data/")
+
 #' Print "fars_read"
 #'
 #' This is a simple function that, reads a csv which name will be included as the solely argument in the function.
@@ -11,7 +16,7 @@
 #' @importFrom("dplyr", "tbl_df")
 #'
 #' @examples
-#' fars_read("accident_2013.csv")
+#' \dontrun{fars_read("accident_2013.csv")}
 #'
 #' @note Please note that in this function uses the read_csv function from readr package and the tbl_df function from the dplyr package.
 #' @note Additionally to above, you should have in mind that the files to be imported in R should be either placed in the working directory or the path to be included as part of the parameter (input) of the function.
@@ -34,7 +39,7 @@ fars_read <- function(filename) {
 #'
 #' @return This function returns the name "accident_%d.csv.bz2" but instead of %d will concatenate the value of year specified as input in the function.
 #'
-#' @examples make_filename(2015)
+#' @examples \dontrun{fars_read("make_filename(2015)")}
 #'
 #' @export
 make_filename <- function(year) {
@@ -85,7 +90,7 @@ fars_read_years <- function(years) {
 #' @importFrom("dplyr", "bind_rows", "summarize")
 #' @importFrom("tidyr", "spread")
 #'
-#' @examples fars_summarize_years(c("2013","2014"))
+#' @examples \dontrun{fars_summarize_years(c("2013","2014"))}
 #'
 #' @note Again for the proper execution of this function, we need to verify that the dplyr package is installed and loaded and also that the source files are located in the folder that is currently set as working directory.
 #'
@@ -111,7 +116,7 @@ fars_summarize_years <- function(years) {
 #' @importFrom("maps", "map")
 #' @importFrom("graphics", "points")
 #'
-#' @examples fars_map_state(45,2013)
+#' @examples \dontrun{fars_map_state(45,2013)}
 #'
 #' @note Needed packages for this function are: dplyr, maps, graphics. Furthermore, if there are not incidences for the specified combination of year/state number, a relevant message will pop-up.
 #'
@@ -136,3 +141,8 @@ fars_map_state <- function(state.num, year) {
     graphics::points(LONGITUD, LATITUDE, pch = 46)
   })
 }
+
+#' Print "accident_2013"
+#'
+#' This is a sample of the source data. The source data can be found inside the "data" subfolder and can be read in R with the fars_read function
+#'

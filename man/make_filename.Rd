@@ -16,5 +16,6 @@ This function returns the name "accident_%d.csv.bz2" but instead of %d will conc
 This is a function that, returns the name of the file related to the year specified as parameter.
 }
 \examples{
-make_filename(2015) 
+\dontrun{fars_read("make_filename(2015)")}
+
 }

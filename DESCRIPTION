@@ -1,12 +1,12 @@
 Package: TestAssignment
 Type: Package
-Title: Provides a list of functions that can use to read, process and visualize Fatality Analysis Reporting (FAR) data.
+Title: Fatality Analysis Reporting (FAR) data functions
 Version: 0.1.0
 Author: Nancy Antonopoulou
 Maintainer: The package maintainer <athan.antonopoulou@gmail.com>
 Description: Provides a list of functions that can use to read, process and visualize Fatality Analysis Reporting (FAR) data.
-License: What license is it under?
+License: GPL
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
-Imports: dplyr, graphics, maps, readr, tidyr 
+Imports: dplyr, graphics, maps, readr, tidyr, magrittr, testthat
