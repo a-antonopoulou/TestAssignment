@@ -17,6 +17,4 @@ This is a function that, returns the name of the file related to the year specif
 }
 \examples{
 make_filename(2015) 
-will reaturn as output "accident_2015.csv.bz2"
-
 }
