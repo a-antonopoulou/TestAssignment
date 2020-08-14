@@ -2,7 +2,7 @@
 title: "TestAssignment"
 author: "Nancy"
 date: "8/14/2020"
-output: html_document
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
@@ -122,11 +122,17 @@ fars_map_state(45,2013)
 ```
 
 
+## Testing 
+
+I am working in Windows environment so Travis could not proceed with the testing, this is why I tested it also with appveyor which is the most suitable option for this operating system. 
+
+
 ##### Travis Badge
 
 <!-- badges: start -->
 [![Travis build status](https://travis-ci.com/a-antonopoulou/TestAssignment.svg?branch=master)](https://travis-ci.com/a-antonopoulou/TestAssignment)
 <!-- badges: end -->
+
 
 
 ##### appveyor Badge
