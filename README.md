@@ -31,7 +31,7 @@ A sample of the data are:
 
 ```{r sample_of_source_data, echo=FALSE, results=TRUE}
 
-setwd("C:/Users/hq001233/OneDrive/Documents/Coursera_Lessons/Builing Packages/_e1adac2a5f05192dc8780f3944feec13_fars_data/data")
+setwd("~/data")
 
 fars_read <- function(filename) {
   if(!file.exists(filename))
