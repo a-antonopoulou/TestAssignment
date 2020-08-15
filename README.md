@@ -130,7 +130,7 @@ I am working in Windows environment so Travis could not proceed with the testing
 ##### Travis Badge
 
 <!-- badges: start -->
-[![Travis build status](https://travis-ci.com/a-antonopoulou/TestAssignment.svg?branch=master)](https://travis-ci.com/a-antonopoulou/TestAssignment)
+[![Travis build status](https://travis-ci.com/a-antonopoulou/TestAssignment.svg?branch=master)](https://travis-ci.org/github/a-antonopoulou/TestAssignment/builds/718049257)
 <!-- badges: end -->
 
 
